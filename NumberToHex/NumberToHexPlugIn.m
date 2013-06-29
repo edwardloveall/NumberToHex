@@ -12,7 +12,7 @@
 #import "NumberToHexPlugIn.h"
 
 #define	kQCPlugIn_Name				@"Number To Hex"
-#define	kQCPlugIn_Description		@"Converts Numbers to their Hex Values"
+#define	kQCPlugIn_Description		@"Converts Numbers to their Hex Values. Floating point inputs will round to their nearest integer. Also, a the number of leading zero's is configurable via the Digits input."
 
 @implementation NumberToHexPlugIn
 
